@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f6f6f6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+        }
+        .order-number {
+            font-size: 24px;
+            font-weight: bold;
+            background-color: #f4a261;
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .feedback {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .order-details {
+            padding: 20px;
+            background-color: #fafafa;
+            border-radius: 5px;
+        }
+        .order-item {
+            display: flex;
+            justify-content: space-between;
+            margin: 5px 0;
+        }
+        .total {
+            font-size: 18px;
+            font-weight: bold;
+            text-align: right;
+            margin-top: 10px;
+        }
+        .help-center {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Lieferando</h2>
+            <p>Great news! Pizzeria Milano has received your order. Get ready to tuck in!</p>
+            <div class="order-number">CTHBYM</div>
+        </div>
+
+        <div class="feedback">
+            <p>Help make us even better...</p>
+            <button>Share your thoughts</button>
+        </div>
+
+        <div class="order-details">
+            <h3>Your order</h3>
+            <p>Pizzeria Milano</p>
+            <div class="order-item">
+                <span>Kronli Gelati (Beer)</span>
+                <span>€4.52</span>
+            </div>
+            <div class="order-item">
+                <span>Chicken Biryani</span>
+                <span>€12.25</span>
+            </div>
+            <div class="order-item">
+                <span>Pizza (Kebabisch)</span>
+                <span>€14.52</span>
+            </div>
+            <div class="total">Total: €31.79</div>
+        </div>
+
+        <div class="help-center">
+            <p>Need help with your order? <a href="#">Visit our Help Center</a></p>
+        </div>
+    </div>
+</body>
+</html>
